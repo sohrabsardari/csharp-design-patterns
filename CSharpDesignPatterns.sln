@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipping", ".\Creational Patterns\AbstractFactory\Shipping\Shipping\Shipping.csproj", "{DD558410-B51B-4253-BDC6-41615C90676C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shipping.Tests", ".\Creational Patterns\AbstractFactory\Shipping\Shipping.Tests\Shipping.Tests.csproj", "{F44EC808-CD26-4604-AFDE-008B3605F380}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{08010BF7-5939-4D38-88CC-8359E627FB75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{E9F5EB66-EADB-465F-B590-17E7E3328406}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shipping", "Shipping", "{B9B5D14E-42D0-4CC5-9DC0-C0760602C675}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD558410-B51B-4253-BDC6-41615C90676C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD558410-B51B-4253-BDC6-41615C90676C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD558410-B51B-4253-BDC6-41615C90676C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD558410-B51B-4253-BDC6-41615C90676C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44EC808-CD26-4604-AFDE-008B3605F380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44EC808-CD26-4604-AFDE-008B3605F380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44EC808-CD26-4604-AFDE-008B3605F380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44EC808-CD26-4604-AFDE-008B3605F380}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD558410-B51B-4253-BDC6-41615C90676C} = {B9B5D14E-42D0-4CC5-9DC0-C0760602C675}
+		{F44EC808-CD26-4604-AFDE-008B3605F380} = {B9B5D14E-42D0-4CC5-9DC0-C0760602C675}
+		{E9F5EB66-EADB-465F-B590-17E7E3328406} = {08010BF7-5939-4D38-88CC-8359E627FB75}
+		{B9B5D14E-42D0-4CC5-9DC0-C0760602C675} = {E9F5EB66-EADB-465F-B590-17E7E3328406}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E281318-3862-4F3D-AA62-85A8E41186F9}
+	EndGlobalSection
+EndGlobal
