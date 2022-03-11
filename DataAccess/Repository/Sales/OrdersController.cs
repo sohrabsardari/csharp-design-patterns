@@ -8,6 +8,10 @@ namespace Sales;
 [ApiController]
 public class OrdersController : ControllerBase
 {
+    /// <summary>
+    /// Consider using application contract to define interfaces and dto there and
+    /// reference application contracts in controllers instead of application
+    /// </summary>
     private readonly IOrderService _service;
     public OrdersController(IOrderService service)
     {
