@@ -4,19 +4,19 @@ public class Composite : Component
 {
     private List<Component> _components = new List<Component>();
 
-    public void Add(Component component)
+    public override void Add(Component component)
     {
         _components.Add(component);
     }
 
-    public void Remove(Component component)
+    public override void Remove(Component component)
     {
         _components.Remove(component);
     }
 
-    public Component GetChild(int number)
+    public override bool IsComposite()
     {
-        return _components[number];
+        return true;
     }
 
     public override void Operation()

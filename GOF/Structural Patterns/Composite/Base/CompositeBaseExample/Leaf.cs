@@ -6,4 +6,9 @@ public sealed class Leaf : Component
     {
         Console.WriteLine("Leaf Operation");
     }
+
+    public override bool IsComposite()
+    {
+        return false;
+    }
 }
