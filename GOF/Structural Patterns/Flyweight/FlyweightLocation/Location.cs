@@ -1,4 +1,6 @@
-﻿public class Location
+﻿namespace FlyweightLocation;
+
+public class Location
 {
     public int Longitude { get; private set; }
     public int Latitude { get; private set; }

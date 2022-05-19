@@ -1,4 +1,6 @@
-﻿public class Adaptee
+﻿namespace ClassAdapterPatternBaseExample;
+
+public class Adaptee
 {
     public string GetSomeRequest()
     {

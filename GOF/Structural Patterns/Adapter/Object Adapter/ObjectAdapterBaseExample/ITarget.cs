@@ -1,4 +1,6 @@
-﻿public interface ITarget
+﻿namespace ObjectAdapterBaseExample;
+
+public interface ITarget
 {
     string GetRequest();
 }

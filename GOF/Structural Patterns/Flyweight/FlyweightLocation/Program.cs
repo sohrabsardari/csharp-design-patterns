@@ -1,4 +1,6 @@
-﻿var service = new LocationService(new LocationIconFactory());
+﻿using FlyweightLocation;
+
+var service = new LocationService(new LocationIconFactory());
 
 var points = service.GetLocations();
 

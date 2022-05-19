@@ -1,4 +1,6 @@
-﻿public class LocationIcon
+﻿namespace FlyweightLocation;
+
+public class LocationIcon
 {
     public LocationType LocationType { get; private set; }
     public byte[] Icon { get; private set; }

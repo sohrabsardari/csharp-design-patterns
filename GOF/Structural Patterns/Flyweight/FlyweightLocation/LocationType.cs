@@ -1,4 +1,6 @@
-﻿public enum LocationType
+﻿namespace FlyweightLocation;
+
+public enum LocationType
 {
     City,
     Country

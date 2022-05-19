@@ -1,4 +1,6 @@
-﻿public class LocationService
+﻿namespace FlyweightLocation;
+
+public class LocationService
 {
     private readonly LocationIconFactory _factory;
 

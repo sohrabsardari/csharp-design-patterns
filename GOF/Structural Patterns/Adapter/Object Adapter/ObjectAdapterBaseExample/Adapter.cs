@@ -1,4 +1,6 @@
 ﻿
+namespace ObjectAdapterBaseExample;
+
 public class Adapter: ITarget
 {
     private Adaptee _adaptee;

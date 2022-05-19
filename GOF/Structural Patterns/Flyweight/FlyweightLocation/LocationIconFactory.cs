@@ -1,4 +1,6 @@
-﻿public class LocationIconFactory
+﻿namespace FlyweightLocation;
+
+public class LocationIconFactory
 {
     private readonly Dictionary<LocationType, LocationIcon> _icons = new();
     public LocationIcon GetPointIcon(LocationType type)
