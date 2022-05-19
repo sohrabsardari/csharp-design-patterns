@@ -59,19 +59,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{D0B6C964-FF20-4B81-A6D5-66A49FCC29E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorBaseExample", "GOF\Structural Patterns\Decorator\Base\DecoratorBaseExample\DecoratorBaseExample.csproj", "{05541C59-ABE9-4F71-A098-72793110C3FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorBaseExample", "GOF\Structural Patterns\Decorator\Base\DecoratorBaseExample\DecoratorBaseExample.csproj", "{05541C59-ABE9-4F71-A098-72793110C3FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{3F6E1D63-CBD8-4118-B517-192195BCAD2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{0CE7731B-50D6-4395-9D92-704CBEA6C2A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeBaseExample", "GOF\Structural Patterns\Facade\Base\FacadeBaseExample\FacadeBaseExample.csproj", "{5E9B9867-2B9E-4F9C-A875-56AD3161EB8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadeBaseExample", "GOF\Structural Patterns\Facade\Base\FacadeBaseExample\FacadeBaseExample.csproj", "{5E9B9867-2B9E-4F9C-A875-56AD3161EB8F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{49DB5B99-515E-4A1B-9915-026EB8679C7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{38463528-1BBE-4F7F-9EC5-2FEA41558FE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeBaseExample", "GOF\Structural Patterns\Composite\Base\CompositeBaseExample\CompositeBaseExample.csproj", "{B9CE5CDE-0A96-4047-829F-79DA8B31EAF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeBaseExample", "GOF\Structural Patterns\Composite\Base\CompositeBaseExample\CompositeBaseExample.csproj", "{B9CE5CDE-0A96-4047-829F-79DA8B31EAF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{F2656282-D791-4E47-B591-09F70C681C23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Location", "Location", "{9CCA60A4-851A-48E0-AA27-5029D96A106E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightLocation", "GOF\Structural Patterns\Flyweight\FlyweightLocation\FlyweightLocation.csproj", "{E92912CE-E085-4E39-9E2B-E27F21F3B616}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +133,10 @@ Global
 		{B9CE5CDE-0A96-4047-829F-79DA8B31EAF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9CE5CDE-0A96-4047-829F-79DA8B31EAF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9CE5CDE-0A96-4047-829F-79DA8B31EAF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92912CE-E085-4E39-9E2B-E27F21F3B616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92912CE-E085-4E39-9E2B-E27F21F3B616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92912CE-E085-4E39-9E2B-E27F21F3B616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92912CE-E085-4E39-9E2B-E27F21F3B616}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,6 +175,9 @@ Global
 		{49DB5B99-515E-4A1B-9915-026EB8679C7E} = {D62C462F-2FC7-498C-B031-92E12D9C9132}
 		{38463528-1BBE-4F7F-9EC5-2FEA41558FE3} = {49DB5B99-515E-4A1B-9915-026EB8679C7E}
 		{B9CE5CDE-0A96-4047-829F-79DA8B31EAF0} = {38463528-1BBE-4F7F-9EC5-2FEA41558FE3}
+		{F2656282-D791-4E47-B591-09F70C681C23} = {D62C462F-2FC7-498C-B031-92E12D9C9132}
+		{9CCA60A4-851A-48E0-AA27-5029D96A106E} = {F2656282-D791-4E47-B591-09F70C681C23}
+		{E92912CE-E085-4E39-9E2B-E27F21F3B616} = {9CCA60A4-851A-48E0-AA27-5029D96A106E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E281318-3862-4F3D-AA62-85A8E41186F9}
