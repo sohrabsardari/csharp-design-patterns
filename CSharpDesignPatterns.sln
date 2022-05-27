@@ -107,6 +107,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RenderEngine", "RenderEngin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderEngine", "GOF\Creational Patterns\FactoryMethod\RenderEngine\RenderEngine.csproj", "{8AF76BD0-AAFE-4686-9136-2E6627D1000E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WidgetTheme", "GOF\Creational Patterns\AbstractFactory\WidgetTheme\WidgetTheme.csproj", "{736E272D-A364-4A1B-99BA-6BB3C30DB65A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WidgetTheme", "WidgetTheme", "{0ACB8D01-BCE0-4079-81C1-EE1DFB52E126}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -185,6 +189,10 @@ Global
 		{8AF76BD0-AAFE-4686-9136-2E6627D1000E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AF76BD0-AAFE-4686-9136-2E6627D1000E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AF76BD0-AAFE-4686-9136-2E6627D1000E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736E272D-A364-4A1B-99BA-6BB3C30DB65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736E272D-A364-4A1B-99BA-6BB3C30DB65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736E272D-A364-4A1B-99BA-6BB3C30DB65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736E272D-A364-4A1B-99BA-6BB3C30DB65A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -240,6 +248,8 @@ Global
 		{D5DAD559-9281-470B-8D4E-0BA931843CC7} = {08010BF7-5939-4D38-88CC-8359E627FB75}
 		{108490A2-D38B-4404-B36A-101B284DD00C} = {D5DAD559-9281-470B-8D4E-0BA931843CC7}
 		{8AF76BD0-AAFE-4686-9136-2E6627D1000E} = {108490A2-D38B-4404-B36A-101B284DD00C}
+		{736E272D-A364-4A1B-99BA-6BB3C30DB65A} = {0ACB8D01-BCE0-4079-81C1-EE1DFB52E126}
+		{0ACB8D01-BCE0-4079-81C1-EE1DFB52E126} = {E9F5EB66-EADB-465F-B590-17E7E3328406}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E281318-3862-4F3D-AA62-85A8E41186F9}
