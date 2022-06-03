@@ -2,6 +2,6 @@
 
 public interface IOrderService
 {
-    public long Insert(CreateOrderDto dto);
-    public OrderDto Get(long id);
+    public long CreateAnOrder(CreateOrderDto dto);
+    public OrderDto GetAnOrderById(long id);
 }

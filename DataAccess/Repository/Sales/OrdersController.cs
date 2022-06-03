@@ -21,12 +21,12 @@ public class OrdersController : ControllerBase
     [HttpPost]
     public ActionResult<long> Post(CreateOrderDto dto)
     {
-        return Ok(_service.Insert(dto));
+        return Ok(_service.CreateAnOrder(dto));
     }
 
     [HttpGet("{id}")]
     public ActionResult<OrderDto> Get(long id)
     {
-        return Ok(_service.Get(id));
+        return Ok(_service.GetAnOrderById(id));
     }
 }

@@ -12,7 +12,7 @@ namespace Sales.Application
         }
 
 
-        public long Insert(CreateOrderDto dto)
+        public long CreateAnOrder(CreateOrderDto dto)
         {
             var id = _repository.GetNextId();
             var order = new Order(id, dto.Note);
@@ -21,7 +21,7 @@ namespace Sales.Application
             return id;
         }
 
-        public OrderDto Get(long id)
+        public OrderDto GetAnOrderById(long id)
         {
             var order = _repository.Get(id);
             return new OrderDto()
