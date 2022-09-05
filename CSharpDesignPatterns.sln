@@ -135,6 +135,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemSample", "GOF\Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemSample.Tests", "GOF\Structural Patterns\Composite\File System\FileSystemSample.Tests\FileSystemSample.Tests.csproj", "{08DE0EA5-1F72-4DDA-BD07-98A25EB20A32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeGame", "GOF\Creational Patterns\Builder\MazeGame\MazeGame\MazeGame.csproj", "{7DB12AF8-8A9E-4B54-A401-09B10B904F3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -233,6 +235,10 @@ Global
 		{08DE0EA5-1F72-4DDA-BD07-98A25EB20A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08DE0EA5-1F72-4DDA-BD07-98A25EB20A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08DE0EA5-1F72-4DDA-BD07-98A25EB20A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB12AF8-8A9E-4B54-A401-09B10B904F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB12AF8-8A9E-4B54-A401-09B10B904F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB12AF8-8A9E-4B54-A401-09B10B904F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB12AF8-8A9E-4B54-A401-09B10B904F3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -302,6 +308,7 @@ Global
 		{CA8CF455-B834-4136-A5D9-958EF2076839} = {49DB5B99-515E-4A1B-9915-026EB8679C7E}
 		{739428A3-AB98-4CCC-B526-7C3197AB2932} = {CA8CF455-B834-4136-A5D9-958EF2076839}
 		{08DE0EA5-1F72-4DDA-BD07-98A25EB20A32} = {CA8CF455-B834-4136-A5D9-958EF2076839}
+		{7DB12AF8-8A9E-4B54-A401-09B10B904F3A} = {114B6C19-A7B3-4E54-BD5D-6ECA3CC48870}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E281318-3862-4F3D-AA62-85A8E41186F9}
