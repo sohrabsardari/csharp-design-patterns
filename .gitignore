@@ -8,4 +8,4 @@
 **/bin/
 *.ncrunchsolution*
 *.ncrunchproject*
-/CSharpDesignPatterns.sln.DotSettings.user
+*.user
