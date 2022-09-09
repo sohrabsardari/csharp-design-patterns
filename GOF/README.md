@@ -66,7 +66,7 @@ Scope specifies whether the pattern applies primarily to classes or objects. (St
 
 ## Design Patterns relationships
 
-
+![Design Patterns Relationships](./0_diagrams/DesignPatterns.jpg "Design Patterns Relationships")
 
 ## Summary of all Design Patterns
 
