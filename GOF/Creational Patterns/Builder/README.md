@@ -6,7 +6,7 @@
 | :-----: | :--------: | :----------: |
 | Builder | Creational | Gang of Four |
 
-Builder is a **Object Creational** Pattern.
+Builder is an **Object Creational**.
 
 There are a lot of real-world examples of the Builder pattern, and it is used frequently by people. You can find lots of real world code that uses builders.
 
