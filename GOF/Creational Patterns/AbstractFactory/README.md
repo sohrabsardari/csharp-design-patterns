@@ -21,6 +21,7 @@ Provide an interface for creating families of related or dependent objects witho
 Kit
 
 ## Diagrams
+![image](https://user-images.githubusercontent.com/14781288/223683003-9c8f2fb6-f9f7-48e3-9913-ffe46166f3ad.png)
 
 ## Real world example
 
